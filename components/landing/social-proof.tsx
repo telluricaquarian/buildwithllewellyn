@@ -47,6 +47,9 @@ export function SocialProof() {
 
   const current = names[currentIndex]
 
+  // Temporarily hidden — re-enable by removing the early return below
+  return null
+
   return (
     <div 
       className={`fixed bottom-6 left-5 z-50 flex items-center gap-3 bg-[rgba(15,15,15,0.96)] border border-[var(--brand-orange-from)]/30 border-l-[3px] border-l-[var(--brand-orange-from)] p-3 max-w-[280px] shadow-2xl transition-all duration-400 ${

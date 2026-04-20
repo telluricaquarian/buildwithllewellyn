@@ -6,12 +6,21 @@ import { OptinForm } from "./optin-form"
 export function HeroSection() {
   return (
     <section className="relative w-full min-h-[1000px] md:min-h-[1100px] flex flex-col items-center overflow-hidden">
-      {/* Background Image */}
-      <div 
-        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+      {/* Background Image — desktop */}
+      <div
+        className="absolute inset-0 bg-cover bg-center bg-no-repeat hidden md:block"
         style={{
           backgroundImage: 'url(https://hebbkx1anhila5yf.public.blob.vercel-storage.com/backgroundimage-GJjiRJnBn3emzr715OUZ1GxBqMSRI4.png)',
           backgroundPosition: '50% 25%'
+        }}
+      />
+
+      {/* Background Image — mobile */}
+      <div
+        className="absolute inset-0 bg-cover bg-no-repeat block md:hidden"
+        style={{
+          backgroundImage: 'url(/verticalmobileresponsive.JPG)',
+          backgroundPosition: '50% 20%'
         }}
       />
       

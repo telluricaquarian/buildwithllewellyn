@@ -10,8 +10,9 @@ export function HeroSection() {
       <div
         className="absolute inset-0 bg-cover bg-center bg-no-repeat hidden md:block"
         style={{
-          backgroundImage: 'url(https://hebbkx1anhila5yf.public.blob.vercel-storage.com/backgroundimage-GJjiRJnBn3emzr715OUZ1GxBqMSRI4.png)',
-          backgroundPosition: '50% 25%'
+          backgroundImage: 'url(/bwlhero.png)',
+          backgroundPosition: 'center top',
+          backgroundSize: 'cover'
         }}
       />
 

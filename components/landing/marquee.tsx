@@ -1,12 +1,11 @@
 "use client"
 
 const items = [
-  "Without creating content",
-  "Without quitting your 9–5",
-  "Without hiring employees",
-  "Without spending on ads",
-  "Without technical skills",
-  "Without prior experience",
+  "Close clients faster",
+  "Deliver faster than agencies",
+  "Charge premium prices",
+  "Work from anywhere — No team needed",
+  "Land your first retainer",
 ]
 
 export function Marquee() {

@@ -4,32 +4,32 @@ import { Quote } from "lucide-react"
 
 const testimonials = [
   {
-    text: "I went from making $0 online to $8,500 in my first month using the AI strategies I learned. This completely changed my perspective on what's possible.",
+    text: "Llewellyn showed me how to position my offer and I closed a $4,500 website deal the same week.",
     name: "Marcus Chen",
     avatar: "MC"
   },
   {
-    text: "The step-by-step approach made it so easy to follow. Within 3 weeks I had my first paying client. Now I have a waitlist!",
+    text: "Within 3 weeks of applying what I learned I had my first retainer client. The workflow is unlike anything I'd seen before.",
     name: "Sarah Williams",
     avatar: "SW"
   },
   {
-    text: "I was skeptical at first, but the results speak for themselves. Made over $12,000 last month working part-time. AI is the future.",
+    text: "I was delivering websites in days not weeks. Clients noticed immediately. My referral rate doubled.",
     name: "David Rodriguez",
     avatar: "DR"
   },
   {
-    text: "Finally, a training that actually delivers. No fluff, just actionable steps. My income has tripled since implementing these strategies.",
+    text: "Llewellyn showed me how to position my offer and I closed a $4,500 website deal the same week.",
     name: "Emily Thompson",
     avatar: "ET"
   },
   {
-    text: "I've taken dozens of courses but nothing compares to this. The AI tools and methods shared are pure gold. Highly recommend!",
+    text: "Within 3 weeks of applying what I learned I had my first retainer client. The workflow is unlike anything I'd seen before.",
     name: "James Miller",
     avatar: "JM"
   },
   {
-    text: "Quit my 9-5 after just 4 months of applying what I learned. Now making more than I ever did at my corporate job.",
+    text: "I was delivering websites in days not weeks. Clients noticed immediately. My referral rate doubled.",
     name: "Ashley Parker",
     avatar: "AP"
   }
@@ -43,7 +43,7 @@ export function Testimonials() {
     <section className="w-full bg-black pt-10 pb-16 flex flex-col items-center">
       {/* Logo */}
       <span className="text-sm font-medium tracking-widest uppercase text-[var(--brand-cream-60)] mb-10">
-        AI Freelancers
+        Build w/ Llewellyn — Community
       </span>
       
       {/* Carousel wrapper with fade edges */}

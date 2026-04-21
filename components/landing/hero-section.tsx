@@ -1,6 +1,5 @@
 "use client"
 
-import { Clock } from "lucide-react"
 import { OptinForm } from "./optin-form"
 
 export function HeroSection() {
@@ -57,25 +56,17 @@ export function HeroSection() {
         {/* Headline */}
         <h1 className="opacity-0 animate-fade-in animation-delay-200 text-center leading-[1.3] font-normal text-2xl md:text-5xl max-w-4xl">
           <span className="text-[var(--brand-cream-60)]">Give me </span>
-          <span className="font-bold text-[var(--brand-cream)]">30-45</span>
-          <span className="inline-flex items-center justify-center mx-2 px-3 py-1 bg-gradient-to-r from-[var(--brand-orange-from)] to-[var(--brand-orange-to)] rounded-full">
-            <Clock className="w-4 h-4 md:w-5 md:h-5 text-white" />
-          </span>
-          <span className="text-[var(--brand-cream)]">minutes</span>
-          <br />
-          <span className="text-[var(--brand-cream-60)]">{"and I'll teach you how to make"}</span>
-          <br />
-          <span className="text-[var(--brand-cream)]">over </span>
-          <span className="gradient-text-orange font-bold">$193,901.00 per year </span>
-          <span className="font-bold text-[var(--brand-cream)]">With AI.</span>
+          <span className="font-bold text-[var(--brand-cream)]">30 minutes</span>
+          <span className="text-[var(--brand-cream-60)]"> and I'll show you how I'm building </span>
+          <span className="gradient-text-orange font-bold">premium client businesses </span>
+          <span className="text-[var(--brand-cream-60)]">with AI.</span>
         </h1>
 
         {/* Body text */}
         <p className="opacity-0 animate-fade-in animation-delay-400 text-base md:text-lg text-[var(--brand-cream-65)] text-center leading-relaxed max-w-xl -mt-2">
-          {"This is a free live training where I'm going to literally share my screen and show you how you could be making "}
-          <strong className="text-[var(--brand-cream)] font-bold">thousands of dollars</strong>
-          {" by leveraging the biggest opportunity of the century: "}
-          <strong className="text-[var(--brand-cream)] font-bold">AI.</strong>
+          {"This is a free private training where I pull back the curtain on the exact tools and workflow I use to deliver "}
+          <strong className="text-[var(--brand-cream)] font-bold">high-converting websites and digital assets</strong>
+          {" — faster and better than any agency. No fluff. Just what's actually working right now."}
         </p>
 
         {/* Opt-in Form */}

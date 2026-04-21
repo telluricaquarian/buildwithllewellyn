@@ -20,10 +20,9 @@ export function HeroSection() {
       <div
         className="absolute inset-0 bg-no-repeat block md:hidden"
         style={{
-          backgroundImage: 'url(/bwlhero.png)',
+          backgroundImage: 'url(/mobileversion.png)',
           backgroundPosition: 'center top',
-          backgroundSize: 'contain',
-          backgroundColor: '#000000'
+          backgroundSize: 'cover'
         }}
       />
       

@@ -50,7 +50,7 @@ export function HeroSection() {
         {/* Logo placeholder */}
         <div className="opacity-0 animate-fade-in">
           <span className="text-sm font-medium tracking-widest uppercase text-[var(--brand-cream-60)]">
-            AI Freelancers
+            Build w/ Llewellyn
           </span>
         </div>
 

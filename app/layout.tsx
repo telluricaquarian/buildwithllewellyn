@@ -7,8 +7,8 @@ const _geist = Geist({ subsets: ["latin"] });
 const _geistMono = Geist_Mono({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: 'Live Workshop | AI Freelancers - Learn to Make $193,901/year with AI',
-  description: 'Free live training: Learn how to make thousands of dollars by leveraging AI. Join our exclusive workshop and discover the biggest opportunity of the century.',
+  title: 'Build with Llewellyn - Premium Conversion First Sites',
+  description: 'Build with Llewellyn specialises in premium, conversion-first websites designed to turn visitors into clients.',
   generator: 'v0.app',
   icons: {
     icon: [

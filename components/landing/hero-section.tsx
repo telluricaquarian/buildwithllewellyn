@@ -8,10 +8,10 @@ export function HeroSection() {
     <section className="relative w-full min-h-[1000px] md:min-h-[1100px] flex flex-col items-center overflow-hidden">
       {/* Background Image — desktop */}
       <div
-        className="absolute inset-0 bg-cover bg-center bg-no-repeat hidden md:block"
+        className="absolute inset-0 bg-no-repeat hidden md:block"
         style={{
           backgroundImage: 'url(/bwlhero.png)',
-          backgroundPosition: 'center top',
+          backgroundPosition: 'center center',
           backgroundSize: 'cover'
         }}
       />

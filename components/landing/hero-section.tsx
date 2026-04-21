@@ -19,7 +19,7 @@ export function HeroSection() {
       <div
         className="absolute inset-0 bg-cover bg-no-repeat block md:hidden"
         style={{
-          backgroundImage: 'url(/verticalmobilehomepage.png)',
+          backgroundImage: 'url(/verticalmhomepage.png)',
           backgroundPosition: '50% 20%'
         }}
       />

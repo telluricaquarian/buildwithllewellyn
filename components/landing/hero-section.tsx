@@ -18,11 +18,12 @@ export function HeroSection() {
 
       {/* Background Image — mobile */}
       <div
-        className="absolute inset-0 bg-cover bg-no-repeat block md:hidden"
+        className="absolute inset-0 bg-no-repeat block md:hidden"
         style={{
           backgroundImage: 'url(/bwlhero.png)',
           backgroundPosition: 'center top',
-          backgroundSize: 'cover'
+          backgroundSize: 'contain',
+          backgroundColor: '#000000'
         }}
       />
       

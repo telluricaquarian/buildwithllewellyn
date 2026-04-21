@@ -70,7 +70,7 @@ export function HeroSection() {
         </p>
 
         {/* Opt-in Form */}
-        <div className="opacity-0 animate-fade-in animation-delay-600 w-full max-w-md">
+        <div id="bottom-cta-section" className="opacity-0 animate-fade-in animation-delay-600 w-full max-w-md">
           <OptinForm />
         </div>
       </div>

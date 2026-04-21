@@ -19,8 +19,9 @@ export function HeroSection() {
       <div
         className="absolute inset-0 bg-cover bg-no-repeat block md:hidden"
         style={{
-          backgroundImage: 'url(/verticalmhomepage.png)',
-          backgroundPosition: '50% 20%'
+          backgroundImage: 'url(/bwlhero.png)',
+          backgroundPosition: 'center top',
+          backgroundSize: 'cover'
         }}
       />
       
